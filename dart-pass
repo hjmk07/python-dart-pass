@@ -1,0 +1,78 @@
+
+class Account()//creat class
+{
+ int accountNo;
+ Srting name;
+ String dateOfBirth ;
+ double amount;
+ DateTime dateCreated ;
+}
+insert()//passes the account information
+{
+ Accoumt clint1 = new Acount();
+ clint1.accountNo=1;
+ clint1.name="Huda";
+ clint1.dateOfBrith= "1999/7/4";
+ clint1.amount=1235158.22;
+ clint1.dataCreat = new DateTime(2020,7,14)
+ print( ${accountNo} ,${name} ,${dateOfBritt} ,${amount} ,${dataCreat});
+ }
+ 
+ deposit()//deposit process.
+ {
+ int x =5000;
+  clint1.amount= clint1.amount+x;
+  print (amount);
+ }
+ 
+ withdraw()//debit from the account at a certain value.
+ {
+ int y =1000;
+ if(amount>=1000)
+ {
+ clint1.amount= clint1.amount-x;
+  print (amount);
+  }
+  else
+  print("There are not cash in your account");
+ }
+ checkBalance()see the balance on the account.
+ {
+ print(amount);
+ }
+ 
+ main()
+ {
+ Accoumt clint2 = new Acount();
+ Accoumt clint3 = new Acount();
+ Accoumt clint4 = new Acount();
+ print(( accountNo.ToString() ,name , dateOfBritt ,amount.ToString() ,${dataCreat.ToString())//the information of each account
+ 
+ 
+  List listA = [
+    "Muklah","Diyar","Noorhan","Ali","Abdulbasit","Dena","Saba","Fadi","Karrar", "Ahmed"
+  ];
+  List listB = [
+    "Diyar","Noorhan","Muklah","Saba","Mustafa","Ahmed","Fadi","Dena","Hassan","Ali",
+  ];
+  // returns the common names between listA and listB
+   for (int i = 0; i < ab.length; i++)
+   {
+   if (ListA[i].contains("Ali") && ListA[i].contains("Dena")&& ListA[i].contains("Saba")&& ListA[i].contains("Karrar")&& ListA[i].contains("Ahmed")) print("in listA${ListA[i]"});
+   if (ListB[i].contains("Ali") && ListB[i].contains("Dena")&& ListB[i].contains("Saba")&& ListB[i].contains("Karrar")&& ListB[i].contains("Ahmed")) print("in listB${ListB[i]"});
+
+   }
+  
+  
+ //find the names that contain the letter M.
+ for (int i = 0; i < ab.length; i++)
+ { if (ListA[i].contains("m")) print("in listA${ListA[i]"}); else print("The are no name withe letter m";
+ 
+ if (ListB[i].contains("m")) print("in listA${ListB[i]"});else print("The are no name withe letter m";
+ }
+ 
+ 
+ 
+ 
+ }
+ 
