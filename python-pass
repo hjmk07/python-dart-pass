@@ -1,0 +1,17 @@
+students = {
+    'Ahmed': 'Class 1',
+    'Mustafa': 'Class 3',
+    'Ali': 'Class 2',
+    'Sara': 'Class 1',
+    'Zainab': 'Class 1',
+    'Zain': 'Class 2',
+    
+}   
+
+for x to students
+  if students.get(x)= "Class1"
+      print("Class1",students.key())
+  else if students.get(x)= "Class3"
+     print("Class3",students.key())
+  else if students.get(x)= "Class2"
+     print("Class2",students.key())
